@@ -1,0 +1,33 @@
+.home {
+  background-image: url('../photos/ggbridge.jpg');
+  background-size: cover;
+}
+.home-info{
+  display: inline-block;
+  color: black;
+  width: auto;
+  padding: 3rem;
+  height: auto;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: .15rem;
+  position: relative;
+  top: 2rem;
+  right: 12.2rem;
+  float: right;
+  letter-spacing: .25rem;
+}
+@media (max-width: 415px) {
+  .home {
+    background-position: -5rem 0;
+  }
+}
+@media (max-width: 1020px) {
+  .home-info{
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .home-info{
+    right: 3rem;
+  }
+}

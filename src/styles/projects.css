@@ -1,0 +1,34 @@
+
+.proj-link {
+  background-color: #7691c0;
+  border-color: #7691c0;
+  width: 10rem;
+  color: white;
+}
+.proj-link:hover {
+  background-color: white;
+  color:#7691c0;
+  border-color: white;
+}
+.proj-link:active {
+  background-color: #7691c0;
+  border-color: #7691c0;
+  color: white;
+}
+.proj-pic {
+  width: 250px;
+}
+@media (max-width: 991px) {
+  .jumbotron {
+    padding: 1rem;
+  }
+  .proj-link {
+    width: 100%;
+  }
+  .proj-title {
+    font-size: 1.5rem;
+  }
+  .proj-desc {
+    font-size: 1rem;
+  }
+}
