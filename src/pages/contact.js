@@ -21,6 +21,8 @@ import { ErrorMessage } from '@hookform/error-message';
 import ReCAPTCHA from 'react-google-recaptcha'
 import Footer from '../components/footer.js'
 
+import resume from '../resume/resume.pdf'
+
 
 function Contact() {
   const { register, errors, handleSubmit, reset } = useForm({
@@ -97,7 +99,7 @@ function Contact() {
                 </Tooltip>
               }
               >
-              <a href='../photos/resume.pdf' target='_blank'>
+              <a href={resume} target='_blank'>
                 <FileEarmarkPersonFill color='#7691c0' size={38} />
               </a>
             </OverlayTrigger>
