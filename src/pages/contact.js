@@ -99,7 +99,7 @@ function Contact() {
                 </Tooltip>
               }
               >
-              <a href={resume} target='blank'>
+              <a href={resume} target='_blank'>
                 <FileEarmarkPersonFill color='#7691c0' size={38} />
               </a>
             </OverlayTrigger>
