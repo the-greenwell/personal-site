@@ -11,6 +11,7 @@ import Footer from '../components/footer.js'
 import personalProj from '../photos/personalProj.png'
 import kanyeProj from '../photos/KanyeProj.png'
 import junketProj from '../photos/JunketProj.png'
+import trackerProj from '../photos/TrackerProj.png'
 
 class Projects extends Component {
   render(){
@@ -33,6 +34,17 @@ class Projects extends Component {
                 <h3 className='proj-title'>Personal Portfolio</h3>
                 <p className='proj-skills h6 my-3'>HTML5, React, CSS, Bootstrap, AWS</p>
                 <p className='proj-desc h5'>My personal webpage designed and developed by me! This page is completely responsive and was coded using javascript through the React framework, styled using the Bootstrap CSS framework, and deployed using AWS (Amazon Web Services).</p>
+              </Col>
+            </Row>
+            <Row className='jumbotron'>
+              <Col xs={12} lg={4} className='text-center'>
+                <Image className='proj-pic' src={trackerProj} thumbnail/>
+              </Col>
+              <Col>
+                <h3 className='proj-title'>Full Stack MEAN App w/ User Authorization</h3>
+                <p className='proj-skills h6 my-3'>Angular, Express, Mongodb, Node, Bootstrap</p>
+                <a className='proj-link btn mb-3' href='https://github.com/the-greenwell/job-tracker'>Link to GitHub</a>
+                <p className='proj-desc h5'>Built on a MongoDB, Express, and Node backend with an Angular frontend. Full functioning web app that helps keep track of job applications!</p>
               </Col>
             </Row>
             <Row className='jumbotron'>
