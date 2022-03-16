@@ -21,7 +21,7 @@ class Projects extends Component {
         <div className='container shadow bg-white pb-1'>
           <Row className='mb-3' >
             <Col>
-              <h1 className='my-3 text-center'>Previous Projects</h1>
+              <h1 className='my-3 text-center'>Previous Project-a-rinos</h1>
               <hr/>
             </Col>
           </Row>
